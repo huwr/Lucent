@@ -12,6 +12,8 @@
 		55402860250C4B4C009985A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5540285F250C4B4C009985A1 /* Assets.xcassets */; };
 		55402863250C4B4C009985A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55402861250C4B4C009985A1 /* Main.storyboard */; };
 		558286B2250C7F5600973A10 /* NSScreen+Brightness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558286B1250C7F5600973A10 /* NSScreen+Brightness.swift */; };
+		558286B4250C885700973A10 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 558286B3250C885700973A10 /* README.md */; };
+		558286B6250C885C00973A10 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 558286B5250C885C00973A10 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		5540286C250C4D82009985A1 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		55402875250C520E009985A1 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
 		558286B1250C7F5600973A10 /* NSScreen+Brightness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSScreen+Brightness.swift"; sourceTree = "<group>"; };
+		558286B3250C885700973A10 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		558286B5250C885C00973A10 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,8 @@
 		5540284F250C4B4B009985A1 = {
 			isa = PBXGroup;
 			children = (
+				558286B5250C885C00973A10 /* LICENSE */,
+				558286B3250C885700973A10 /* README.md */,
 				5540285A250C4B4B009985A1 /* Lucent */,
 				55402859250C4B4B009985A1 /* Products */,
 				5540286B250C4D82009985A1 /* Frameworks */,
@@ -137,7 +143,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				558286B4250C885700973A10 /* README.md in Resources */,
 				55402860250C4B4C009985A1 /* Assets.xcassets in Resources */,
+				558286B6250C885C00973A10 /* LICENSE in Resources */,
 				55402863250C4B4C009985A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
